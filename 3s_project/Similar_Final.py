@@ -152,7 +152,6 @@ def similar(p1,p2):
     sq1 = sqrt(sum([float(pow(p1.get(sk),2)) for sk in c]))
     sq2 = sqrt(sum([float(pow(p2.get(sk),2)) for sk in c]))
     p = float(ss)/(sq1*sq2)
-    # print sq1,sq2,ss,p
     return p
 
 if __name__ == '__main__':
